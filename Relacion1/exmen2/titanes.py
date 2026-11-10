@@ -58,6 +58,7 @@ def ejercicio6():
     print(lista)
     
 
+
 #Los atributos titanes_solo y titanes_equipo del registro de combate indican 
 #la cantidad de titanes que ha matado el personaje en solitario o 
 #junto a su equipo, respectivamente. Muestra una lista con los nombres 
