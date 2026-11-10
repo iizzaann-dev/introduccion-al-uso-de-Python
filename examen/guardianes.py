@@ -11,6 +11,7 @@ def ejercicio1():
 
     lista.append(Fuerza)
 
+#Hay una coma despues de la lista pero está entero bien el ejercicio
 
 def ejercicio2():
     fuerza = 0
@@ -29,6 +30,7 @@ def ejercicio2():
         print(i)
 
 
+#Mal porque se reinicia la media
 
 
 def ejercicio3():
@@ -46,6 +48,7 @@ def ejercicio3():
         if j["atributos"]["fuerza"] > mediaFuerza:
             print(j)
 
+#Está correcrto
 
 def ejercicio4():
     for i in lista:
@@ -56,6 +59,8 @@ def ejercicio4():
 
     for k in lista:
         print(f"{k["nombre"]} {k["atributos"]["defensa"]}") 
+        
+#Si llega a los 100 no se suma nada
 
 def ejercicio5():
     numero4 = 0
@@ -63,6 +68,8 @@ def ejercicio5():
     for i in lista:
         if i["atributos"]["defensa"] < "Zenitsu Agatsuma"["atributos"]["fuerza"]:
             print(f"{i["nombre"]} {i["atributos"]["fuerza"]} {i["atributos"]["defensa"]}")
+            
+#Totalmente mal
 
 
 def ejercicio6():
@@ -71,3 +78,5 @@ def ejercicio6():
             lista.remove(i)
 
     print(lista)
+    
+#No hace la copia de la lista pero quitando eso esta bien toda la estructura
