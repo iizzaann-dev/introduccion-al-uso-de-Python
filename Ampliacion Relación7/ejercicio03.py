@@ -6,6 +6,8 @@ yen_euro = 0.0061
 yen_dolar = 0.0067
 
 
+
+
 def cambiar_divisa(divisa: float, cadena:str, cadena2:str) -> float:
     
     resultado = 0
